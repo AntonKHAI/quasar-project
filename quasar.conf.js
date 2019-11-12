@@ -49,9 +49,13 @@ module.exports = function (ctx) {
         'QTabPanel',
         'QCarousel',
         'QCarouselControl',
-        'QCarouselSlide'
+        'QCarouselSlide',
+        'QDialog',
+        'QTree'
       ],
-      directives: [],
+      directives: [
+        'ClosePopup'
+      ],
 
       // Quasar plugins
       plugins: []
